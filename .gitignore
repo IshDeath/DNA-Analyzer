@@ -1,0 +1,48 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+*.venv
+*.env
+
+# SQLite database and logs
+*.db
+*.sqlite3
+*.log
+
+# Jupyter Notebook checkpoints (if you use Jupyter)
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment configuration
+.env
+*.env
+
+# Dependencies (if using virtual environments)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE and editor-specific files
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# Generated reports (if applicable)
+reports/
+*.csv
+*.json
+*.html
+
+# Ignore large datasets if not needed in Git
+data/*.txt
+data/*.csv
+data/*.json
+data/*.tsv
